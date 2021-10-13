@@ -50,7 +50,7 @@ $(document).ready(function () {
                 setTimeout(() => {
                     $('#loader').remove();
                     $('#countryResp').html(data.All.country);
-                    console.table(data);
+                    // console.table(data);
                     $.each(data, function (key, value) { 
                         $('tbody').append("<tr><td id=" + key + ">" + key + "</td><td class='right aligned'>" + value.confirmed + "</td><td class='right aligned'>" + value.deaths + "</td></tr>")
                     });
