@@ -1,0 +1,53 @@
+/* PALETA
+arced deep turquoise
+#017374
+distal pale blue
+#D0FEFE
+posttraumatic dark blue grey
+#1F3B4D
+*/
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+body {
+    background-color: #1F3B4D;
+    /* overflow: hidden; */
+}
+
+@media (max-width: 768px) {
+    #container {
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 769px) {
+    #container {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.transition {
+    transition-duration: 500ms;
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Montserrat-Regular';
+    font-weight: 300;
+}
