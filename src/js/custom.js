@@ -56,7 +56,7 @@ $(document).ready(function () {
                     });
                     $('#All').html('Total');
                     $('tbody tr').first().addClass('bg-warning font-weight-bold')
-                }, 50);
+                }, 200);
             }
         });
 
